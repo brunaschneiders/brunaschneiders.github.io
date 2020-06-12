@@ -1,0 +1,27 @@
+.curriculum{
+    background-color: #1a1a1a;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-areas: 
+        "header"
+        "content";
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 100vh 400vh;
+}
+
+.header{
+    grid-area: header;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.content{
+    display: grid;
+    grid-area: content;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    grid-template-columns: 80vw;
+    grid-template-rows: 100vh 100vh 100vh 100vh;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,11 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "Meu currículo",
+  "main": "index.js",
+  "author": "Bruna Letícia Schneiders",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
